@@ -11,6 +11,7 @@
 		D6C085D229BA25240057E5E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C085D129BA25240057E5E7 /* ContentView.swift */; };
 		D6C085D429BA25250057E5E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C085D329BA25250057E5E7 /* Assets.xcassets */; };
 		D6C085D729BA25250057E5E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C085D629BA25250057E5E7 /* Preview Assets.xcassets */; };
+		D6C085E029BD8ADF0057E5E7 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C085DF29BD8ADF0057E5E7 /* ModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D6C085D129BA25240057E5E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D6C085D329BA25250057E5E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6C085D629BA25250057E5E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6C085DF29BD8ADF0057E5E7 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				D6C085CF29BA25240057E5E7 /* Kadai9_SwiftUIApp.swift */,
 				D6C085D129BA25240057E5E7 /* ContentView.swift */,
+				D6C085DF29BD8ADF0057E5E7 /* ModalView.swift */,
 				D6C085D329BA25250057E5E7 /* Assets.xcassets */,
 				D6C085D529BA25250057E5E7 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C085E029BD8ADF0057E5E7 /* ModalView.swift in Sources */,
 				D6C085D229BA25240057E5E7 /* ContentView.swift in Sources */,
 				D6C085D029BA25240057E5E7 /* Kadai9_SwiftUIApp.swift in Sources */,
 			);
