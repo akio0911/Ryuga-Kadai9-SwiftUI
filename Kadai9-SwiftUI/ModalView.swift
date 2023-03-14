@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ModalView: View {
-    @Environment(\.presentationMode) var presentationMode
+    @Environment(\.dismiss) var dismiss
     @Binding var selection: String
     let options = ["東京都", "神奈川県", "埼玉県", "千葉県"]
 
@@ -18,7 +18,7 @@ struct ModalView: View {
                 ForEach(options, id: \.self) { option in
                     Button(action: {
                         selection = option
-                        presentationMode.wrappedValue.dismiss()
+                        dismiss()
                     }, label: {
                         Text(option)
                             .padding(10)
@@ -27,7 +27,7 @@ struct ModalView: View {
                 .navigationBarTitle("ModalView")
                 .navigationBarTitleDisplayMode(.inline)
                 .navigationBarItems(leading: Button("Cancel") {
-                    self.presentationMode.wrappedValue.dismiss()
+                    dismiss()
                 })
                 Spacer()
             }
